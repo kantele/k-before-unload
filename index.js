@@ -1,6 +1,6 @@
 module.exports = BeforeUnload;
 function BeforeUnload() {}
-BeforeUnload.prototype.name = 'd-before-unload';
+BeforeUnload.prototype.name = 'k-before-unload';
 
 BeforeUnload.prototype.create = function(model, dom) {
   // Stop the user from leaving the page whenever a change might be pending
